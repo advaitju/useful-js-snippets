@@ -1,7 +1,7 @@
 script = document.createElement('script');
-script.setAttribute('src', '');
-script.setAttribute('sync', 'false');
+script.src = '';
+script.sync = false;
 script.addEventListener('load', () => {
   console.log('Script loaded.');
 });
-document.querySelector('head').appendChild(script);
+document.head.appendChild(script);
